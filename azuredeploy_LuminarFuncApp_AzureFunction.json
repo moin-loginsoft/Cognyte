@@ -42,7 +42,7 @@
             "type": "string",
             "defaultValue": "10",
             "minLength": 1
-        }
+        },
         "TimeInterval": {
             "type": "string",
             "allowedValues": [
@@ -201,7 +201,7 @@
                         "timeInterval": "[parameters('TimeInterval')]",
                         "Limit": "[parameters('Limit')]",
                         "Polling":  "[variables('Polling')]",
-                        "WEBSITE_RUN_FROM_PACKAGE": "https://github.com/moin-loginsoft/Cognyte/raw/fff699901913237d04bf7bd16a39f3d266434b7e/CognyteLuminar.zip"
+                        "WEBSITE_RUN_FROM_PACKAGE": "https://aka.ms/sentinel-CognyteLuminar-functionapp"
                     }
                 }
             ]
